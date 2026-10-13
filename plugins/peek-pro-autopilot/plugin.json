@@ -1,16 +1,25 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "peek-pro-autopilot",
-  "version": "0.1.0",
-  "description": "Connect ChatGPT to Peek Pro Autopilot.",
+  "version": "1.0.0",
+  "description": "Manage your Peek Pro account from ChatGPT: bookings, timeslots, products, promo codes, memberships, reviews, and reseller channels.",
+  "author": {
+    "name": "Peek Labs",
+    "email": "support@peek.com",
+    "url": "https://www.peeklabs.com"
+  },
+  "homepage": "https://www.peeklabs.com",
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Peek Pro Autopilot",
-        "shortDescription": "Connect to Peek Pro",
-        "longDescription": "Access Peek Pro through the Autopilot app.",
+        "shortDescription": "Manage Peek Pro bookings and products",
+        "longDescription": "Manage your Peek Pro account from ChatGPT: bookings, timeslots, products, promo codes, memberships, reviews, and reseller channels. Ask in plain language. Actions are scoped to the permissions you grant in the Peek Pro Autopilot app.",
         "developerName": "Peek",
         "category": "Productivity",
+        "websiteURL": "https://www.peek.com",
+        "privacyPolicyURL": "https://www.peek.com/privacy-policy",
+        "termsOfServiceURL": "https://www.peek.com/terms-of-service",
         "logo": "./assets/logo.png",
         "composerIcon": "./assets/logo.png"
       }
