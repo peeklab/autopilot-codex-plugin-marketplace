@@ -1,7 +1,7 @@
 {
-  "name": "early-access",
+  "name": "peek-labs-plugin-marketplace",
   "interface": {
-    "displayName": "Early Access Plugins"
+    "displayName": "Peek Labs Plugins"
   },
   "plugins": [
     {
