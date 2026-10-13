@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "peek-pro-autopilot": {
+      "type": "streamable-http",
+      "url": "https://autopilot-mcp.peeklabs.com/chatgpt/mcp"
+    }
+  }
+}

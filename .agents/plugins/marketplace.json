@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "my-plugin",
+      "name": "peek-pro-autopilot",
       "source": {
         "source": "local",
-        "path": "./plugins/my-plugin"
+        "path": "./plugins/peek-pro-autopilot"
       },
       "policy": {
         "installation": "AVAILABLE",

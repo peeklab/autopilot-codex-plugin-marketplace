@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "peek-pro-autopilot",
+  "version": "0.1.0",
+  "description": "Connect ChatGPT to Peek Pro Autopilot.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Peek Pro Autopilot",
+        "shortDescription": "Connect to Peek Pro",
+        "longDescription": "Access Peek Pro through the Autopilot app.",
+        "developerName": "Peek",
+        "category": "Productivity",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      }
+    }
+  }
+}
